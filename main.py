@@ -110,7 +110,7 @@ def guardar_o_modificar(categoria, jugador, puntos, tachar, dados,tiradas):
 
 
     except FileNotFoundError:
-        # Si no existe, creo planilla inicial 
+        #Si no existe, creo planilla inicial 
 
         planilla = [["E", '', ''], ["F", '', ''], ["P", '', ''], ["G", '', ''], ["1", '', ''], ["2", '', ''], ["3", '', ''], ["4", '', ''], ["5", '', ''], ["6", '', ''],['Total:',0,0]]
     #  Modifico el puntaje
